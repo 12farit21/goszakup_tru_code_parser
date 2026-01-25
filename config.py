@@ -15,13 +15,13 @@ LOG_DIR = BASE_DIR / "logs"
 DB_PATH = DATA_DIR / "goszakup_lots.db"
 
 # Input JSON file
-INPUT_JSON_FILE = OUTPUT_DIR / "goszakup_links_20260124_233904.json"
+INPUT_JSON_FILE = OUTPUT_DIR / "goszakup_links_20260125_031156.json"
 
 # HTTP settings
 REQUEST_TIMEOUT = 15
-MAX_RETRIES = 5
-RETRY_BASE_DELAY = 2.0
-REQUEST_DELAY = 1.0  # Delay between requests (rate limiting)
+MAX_RETRIES = 3
+RETRY_BASE_DELAY = 3.0
+REQUEST_DELAY = 0  # Delay between requests (rate limiting)
 RATE_LIMIT_DELAY = 10.0  # Delay after 429 error
 
 # HTTP headers (from 2.py and 3.py)

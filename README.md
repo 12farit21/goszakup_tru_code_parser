@@ -18,7 +18,7 @@ Playwright-based web scraper для автоматического извлеч�
 ### 1. Клонирование репозитория (или переход в директорию проекта)
 
 ```bash
-cd c:\CODES\Tender2_additional\goszakup_tru_code_parsing
+git clone https://github.com/12farit21/goszakup_tru_code_parser.git
 ```
 
 ### 2. Установка зависимостей
@@ -256,7 +256,7 @@ python scraper.py --max-links 1000000
 ## Структура проекта
 
 ```
-c:\CODES\Tender2_additional\goszakup_tru_code_parsing\
+
 ├── scraper.py              # Основной скрипт парсера
 ├── .env                    # Конфигурация (не в git)
 ├── .env.example            # Шаблон конфигурации
